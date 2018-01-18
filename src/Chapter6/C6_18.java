@@ -63,9 +63,10 @@ public class C6_18 {
 //checks if it is a letter
 
     /**
+     * isLetter
      *
-     * @param ch
-     * @return
+     * @param ch Is the character entered by user
+     * @return true of false based on if it is a letter or not
      */
     public static boolean isLetter(char ch) {
         ch = Character.toUpperCase(ch);
@@ -74,10 +75,11 @@ public class C6_18 {
 
 //checks if there is a number
     /**
-     * fill out the descriptions missing
+     * isNumeric
      *
-     * @param ch
-     * @return
+     * @param ch Entered number
+     * @return True or false based on if it is a number under 9 and number over
+     * 0.
      */
     public static boolean isNumeric(char ch) {
 

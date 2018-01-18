@@ -37,6 +37,16 @@ public class P6 {
         calculations(typeOfMoney, DollarsNum, Yen, Pound, Euro, input);
     }
 
+    /**
+     * calculations
+     *
+     * @param typeOfMoney the form of currency being used in the calculation
+     * @param numOfDollars the number of dollars in the calculation
+     * @param yen the value of yen
+     * @param pound the value of pound
+     * @param euro the value euro
+     * @param input user response input to continue the program or not.
+     */
     public static void calculations(String typeOfMoney, double numOfDollars, double yen, double pound, double euro, Scanner input) {
         DecimalFormat d2 = new DecimalFormat("0.00");
         double euros1 = 0, pound1 = 0, yen1 = 0, euros2 = 0,
