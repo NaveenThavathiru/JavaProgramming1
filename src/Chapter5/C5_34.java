@@ -9,11 +9,12 @@ import java.util.Scanner;
  * @author Naveen Thavathiru
  */
 public class C5_34 {
- /**
- * Main Method
- *
- * @param args arguments from command line prompt
- */
+
+    /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
 //sets initial values to the Wins
         int compWins = 0;
@@ -53,6 +54,14 @@ public class C5_34 {
 
     }
 
+    /**
+     * getHand
+     *
+     * @param hand is the users selection of either scissor, rock, paper, or
+     * null.
+     * @return either scissor, rock, paper, or null based on users numeric
+     * input.
+     */
     public static String getHand(int hand) {
 
         String handString;
@@ -73,6 +82,15 @@ public class C5_34 {
     }
 //sets value for getGameStatus to be displayed in the code above
 
+    /**
+     * getGameStatus
+     *
+     * @param computer is the computer's selection of either rock, paper, or
+     * scissor.
+     * @param player is the player's selection of either rock, paper, or
+     * scissor.
+     * @return status of who won.
+     */
     public static String getGameStatus(int computer, int player) {
         if (computer == player) {
             return "It's a draw";
